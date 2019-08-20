@@ -10,13 +10,13 @@
     "serve": "serve dist -p 3000"
   },
   "dependencies": {
-    "axios": "^0.16.2",
-    "react": "^16.0.0",
-    "react-router": "^4.2.0",
-    "react-static": "^5.1.6"
+    "axios": "0.19.0",
+    "react": "16.9.0",
+    "react-router": "5.0.1",
+    "react-static": "7.1.0"
   },
   "devDependencies": {
-    "eslint-config-react-tools": "1.x.x",
-    "serve": "^6.1.0"
+    "eslint-config-react-tools": "1.1.7",
+    "serve": "11.1.0"
   }
 }
