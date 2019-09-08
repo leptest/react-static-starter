@@ -1,37 +1,36 @@
-import axios from "axios";
+import path from 'path'
+import axios from 'axios'
 
 export default {
   getRoutes: async () => {
     const { data: posts } = await axios.get(
-      "https://jsonplaceholder.typicode.com/posts"
-    );
+      'https://jsonplaceholder.typicode.com/posts'
+    )
+
     return [
       {
-        path: "/",
-        component: "src/containers/Home"
-      },
-      {
-        path: "/about",
-        component: "src/containers/About"
-      },
-      {
-        path: "/blog",
-        component: "src/containers/Blog",
+        path: '/blog',
         getData: () => ({
-          posts
+          posts,
         }),
         children: posts.map(post => ({
           path: `/post/${post.id}`,
-          component: "src/containers/Post",
+          template: 'src/containers/Post',
           getData: () => ({
-            post
-          })
-        }))
+            post,
+          }),
+        })),
       },
+    ]
+  },
+  plugins: [
+    [
+      require.resolve('react-static-plugin-source-filesystem'),
       {
-        is404: true,
-        component: "src/containers/404"
-      }
-    ];
-  }
-};
+        location: path.resolve('./src/pages'),
+      },
+    ],
+    require.resolve('react-static-plugin-reach-router'),
+    require.resolve('react-static-plugin-sitemap'),
+  ],
+}
