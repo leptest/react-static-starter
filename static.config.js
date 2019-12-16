@@ -28,10 +28,10 @@ export default {
           })
         }))
       },
-      {
-        is404: true,
-        component: "src/containers/404"
-      }
+      // {
+      //   is404: true,
+      //   component: "src/containers/404"
+      // }
     ];
   }
 };
