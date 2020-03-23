@@ -6,6 +6,8 @@
 
 # production
 /dist
+/artifacts
+/tmp
 
 # misc
 .DS_Store
