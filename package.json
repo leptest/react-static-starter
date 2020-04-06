@@ -22,7 +22,7 @@
     "react-static-plugin-source-filesystem": "7.2.3"
   },
   "devDependencies": {
-    "@leptest/eslint-config-leptest": "1.0.1",
+    "@leptest/eslint-config-leptest": "1.0.4",
     "serve": "11.3.0"
   }
 }
