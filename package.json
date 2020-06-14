@@ -15,14 +15,14 @@
     "axios": "0.19.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-hot-loader": "4.12.20",
-    "react-static": "7.2.3",
-    "react-static-plugin-reach-router": "7.2.3",
-    "react-static-plugin-sitemap": "7.2.3",
-    "react-static-plugin-source-filesystem": "7.2.3"
+    "react-hot-loader": "4.12.21",
+    "react-static": "7.4.0",
+    "react-static-plugin-reach-router": "7.4.0",
+    "react-static-plugin-sitemap": "7.4.0",
+    "react-static-plugin-source-filesystem": "7.4.0"
   },
   "devDependencies": {
-    "@leptest/eslint-config-leptest": "1.0.1",
-    "serve": "11.3.0"
+    "@leptest/eslint-config-leptest": "1.0.5",
+    "serve": "11.3.2"
   }
 }
