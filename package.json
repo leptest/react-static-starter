@@ -15,7 +15,7 @@
     "axios": "0.19.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-hot-loader": "4.12.21",
+    "react-hot-loader": "4.13.0",
     "react-static": "7.4.0",
     "react-static-plugin-reach-router": "7.4.0",
     "react-static-plugin-sitemap": "7.4.0",
