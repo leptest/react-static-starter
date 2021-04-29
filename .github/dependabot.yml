@@ -1,0 +1,40 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+  - dependency-name: react-static-plugin-reach-router
+    versions:
+    - 7.4.2
+    - 7.5.0
+    - 7.5.1
+  - dependency-name: react-static-plugin-source-filesystem
+    versions:
+    - 7.4.2
+    - 7.5.0
+    - 7.5.1
+  - dependency-name: react-static
+    versions:
+    - 7.4.2
+    - 7.5.0
+    - 7.5.1
+  - dependency-name: react-static-plugin-sitemap
+    versions:
+    - 7.4.2
+    - 7.5.0
+    - 7.5.1
+  - dependency-name: "@leptest/eslint-config-leptest"
+    versions:
+    - 1.0.8
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
