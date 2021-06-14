@@ -23,6 +23,6 @@
   },
   "devDependencies": {
     "@leptest/eslint-config-leptest": "1.0.5",
-    "serve": "11.3.2"
+    "serve": "12.0.0"
   }
 }
